@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1DC801C5-B191-4DE9-83CD-DCEA458503F3}</ProjectGuid>
+    <ProjectGuid>{F1F62606-A81F-4D48-9282-1D83B9B90565}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>Tyuiu.KultyshevaEA.Sprint2.Task5.V14</RootNamespace>
+    <AssemblyName>Tyuiu.KultyshevaEA.Sprint2.Task5.V14</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.KultyshevaEA.Sprint2.Task5.V14.Lib\Tyuiu.KultyshevaEA.Sprint2.Task5.V14.Lib.csproj">
+      <Project>{a759fa8b-fdb6-45c2-a139-f518a6832dd9}</Project>
+      <Name>Tyuiu.KultyshevaEA.Sprint2.Task5.V14.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
